@@ -1,6 +1,7 @@
 USE RRHH
 -- Nombre del Empleado - Tipo Licencia - Modalidad Licencia - Estado
 SELECT
+    L.idLicencia AS 'ID'
     E.nomApe AS 'Nombres',
     T.nomTipo_Licencia AS 'Tipo de Licencia',
     M.nomModalidad AS 'Modalidad de Licencia',
